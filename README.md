@@ -1,20 +1,21 @@
-# Introduction 
-TODO: Give a short introduction of your project. Let this section explain the objectives or the motivation behind this project. 
+# Azure API Management developer portal
 
-# Getting Started
-TODO: Guide users through getting your code up and running on their own system. In this section you can talk about:
-1.	Installation process
-2.	Software dependencies
-3.	Latest releases
-4.	API references
+This repository is managed by the [Microsoft Azure API Management](https://aka.ms/apimrocks) team and contains the source code of the developer portal. Refer to the [official Azure documentation](https://aka.ms/apimdocs/portal) for more information and instructions. 
 
-# Build and Test
-TODO: Describe and show how to build your code and run the tests. 
+![API Management developer portal](readme/portal.png)
 
-# Contribute
-TODO: Explain how other users and developers can contribute to make your code better. 
+## <a name="releases"></a> Releases
 
-If you want to learn more about creating good readme files then refer the following [guidelines](https://docs.microsoft.com/en-us/azure/devops/repos/git/create-a-readme?view=azure-devops). You can also seek inspiration from the below readme files:
-- [ASP.NET Core](https://github.com/aspnet/Home)
-- [Visual Studio Code](https://github.com/Microsoft/vscode)
-- [Chakra Core](https://github.com/Microsoft/ChakraCore)
+The `master` branch of this repository is used for daily development purposes and may contain unstable version of the software. We recommend using [releases](https://github.com/Azure/api-management-developer-portal/releases) for setting up your portal.
+
+## <a name="feedback"></a> Interactions
+
+You can **report bugs** or **submit feature requests** in [the repository's Issues section](https://github.com/Azure/api-management-developer-portal/issues).
+
+Microsoft Azure Support assistance is limited to managed portals and only the initial setup of self-hosted portals ([documentation](https://aka.ms/apimdocs/selfhostportal)); best effort support is provided for problems that are caused by environmental factors, such as (but not limited to): hosting platform, development environment, network configuration. Other self-hosted portal assistance requests (for example, problem with custom widgets) should be submitted [on Stack Overflow](https://aka.ms/apimso) with the `azure-api-management` tag. **We don't provide support through GitHub Issues**.
+
+We welcome and appreciate [community contributions](CONTRIBUTIONS.md). Refer to the [contribution guidelines](https://aka.ms/apimdocs/portal/contribute) for more information.
+
+## <a name="license"></a> License
+
+The developer portal is published under the [MIT license](license).
