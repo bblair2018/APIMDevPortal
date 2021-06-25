@@ -1,0 +1,6 @@
+{
+    "environment": "publishing",
+    "managementApiUrl": "https://sapientspocapim.management.azure-api.net",
+    "managementApiAccessToken": "SharedAccessSignature integration&202107251553&O9HQfBLp5xOkPAJE3NVYFq4FBSdbkKZSyALq494l7dSY7/SnYY1woNmQzwE6725SvcXoidgaoonbfUDDGijsiA==",
+    "useHipCaptcha": false
+}
