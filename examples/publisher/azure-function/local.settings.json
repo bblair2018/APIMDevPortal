@@ -14,6 +14,8 @@
     "FUNCTIONS_WORKER_RUNTIME": "node",
     "WEBSITE_SITE_NAME": "apim-portal-publisher",
     "WEBSITE_AUTH_LOGOUT_PATH": "/.auth/logout",
-    "AzureWebJobsStorage": "DefaultEndpointsProtocol=..."
+    "AzureWebJobsStorage": "DefaultEndpointsProtocol=...",
+    "DISABLE_HUGO_BUILD": "True",
+    "SCM_DO_BUILD_DURING_DEPLOYMENT": "False"
   }
 }
