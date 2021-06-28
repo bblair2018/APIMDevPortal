@@ -1,5 +1,5 @@
 {
     "environment": "runtime",
     "managementApiUrl": "https://sapientspocapim.management.azure-api.net",
-    "backendUrl": "https://sapientspocapim.developer.azure-api.net",
+    "backendUrl": "https://sapientspocapim.developer.azure-api.net"
 }
