@@ -21,5 +21,12 @@ We welcome and appreciate [community contributions](CONTRIBUTIONS.md). Refer to 
 The developer portal is published under the [MIT license](license).
 
 ## <a name="Updates by John Blair"></a> Updates by John Blair
+- Added a page called "Doc" on the main form, when you click on it, widget static html document I added.
+- The static page I added is here: https://htmlcontentstorage.blob.core.windows.net/files/sample.html
+- I can get this to work locally, but when a do a local publish and push to azure, the static document I added through teh widget is not there.
 - Made changes to the following files:
-  - Hello 
+  - constants.ts
+  - document-details-runtime.ts
+  - apim.deisgn.module.ts
+  - apim.publish.module.ts
+  - apin-runtime.module.tst
