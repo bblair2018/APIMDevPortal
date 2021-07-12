@@ -36,9 +36,11 @@ import { OAuthService } from "./services/oauthService";
 import { ApiProductsModule } from "./components/apis/api-products/ko/apiProducts.module";
 import { RuntimeConfigPublisher } from "./publishing/runtimeConfigPublisher";
 import { RuntimeConfigBuilder } from "./publishing/runtimeConfigBuilder";
+import { DocumentDetailsPublishModule } from "../community/widgets/document-details/documentDetails.publish.module";
 
 export class ApimPublishModule implements IInjectorModule {
     public register(injector: IInjector): void {
+        injector.bindModule(new DocumentDetailsPublishModule());
         injector.bindModule(new ListOfApisModule());
         injector.bindModule(new ApiProductsModule());
         injector.bindModule(new DetailsOfApiModule());

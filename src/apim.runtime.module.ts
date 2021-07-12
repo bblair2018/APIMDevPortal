@@ -69,9 +69,11 @@ import { TagService } from "./services/tagService";
 import { TenantService } from "./services/tenantService";
 import { UsersService } from "./services/usersService";
 import { ApimSettingsProvider } from "./configuration/apimSettingsProvider";
+import { DocumentDetailsRuntimeModule } from "../community/widgets/document-details/documentDetails.runtime.module";
 
 export class ApimRuntimeModule implements IInjectorModule {
     public register(injector: IInjector): void {
+        injector.bindModule(new DocumentDetailsRuntimeModule()); 
         injector.bindSingleton("logger", ConsoleLogger);
         injector.bindToCollection("autostart", UnhandledErrorHandler);
         injector.bindToCollection("autostart", BalloonBindingHandler);

@@ -6,7 +6,8 @@ import { Component, RuntimeComponent, Param, OnMounted, OnDestroyed } from "@pap
 import { widgetRuntimeSelector } from "../..";
 import { RouteHelper } from "../../../../../src/routing/routeHelper";
 
-const documentApiUrl = "<URL of the document stored in the storage account>";
+const documentApiUrl = "https://htmlcontentstorage.blob.core.windows.net/files/sample.html";
+//const documentApiUrl = "https://htmlcontentstorage.z20.web.core.windows.net/";
 
 @RuntimeComponent({
     selector: widgetRuntimeSelector
@@ -34,7 +35,8 @@ export class DocumentDetailsRuntime {
         const api = this.routeHelper.getApiName();
 
         const request: HttpRequest = {
-            url: `${documentApiUrl}/${fileName}`,
+            // url: `${documentApiUrl}/${fileName}`,
+            url: `${documentApiUrl}`,
             method: "GET"
         };
 
