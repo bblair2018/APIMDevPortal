@@ -19,3 +19,7 @@ We welcome and appreciate [community contributions](CONTRIBUTIONS.md). Refer to 
 ## <a name="license"></a> License
 
 The developer portal is published under the [MIT license](license).
+
+## <a name="Updates by John Blair"></a> Updates by John Blair
+- Made changes to the following files:
+  - Hello 
